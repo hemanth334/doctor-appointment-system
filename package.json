@@ -1,0 +1,21 @@
+{
+    "name": "doctor-appointment-backend",
+    "version": "1.0.0",
+    "description": "Backend server for Doctor Appointment Booking System",
+    "main": "server.js",
+    "scripts": {
+  "start": "node backend/server.js",
+  "dev": "nodemon backend/server.js"
+},
+    "dependencies": {
+      "cors": "^2.8.5",
+      "express": "^4.18.2",
+      "sqlite3": "^5.1.2"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.2"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+  
